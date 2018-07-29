@@ -14,4 +14,5 @@ class Anagram
 end
 
 listen = Anagram.new("listen")
-puts listen.match[enlists google inlets banana]
+new_array = [ "enlists", "google", "inlets", "banana"]
+puts listen.match(new_array)
